@@ -1,0 +1,10 @@
+import math
+from fractions import Fraction
+num1 = int(input('Ingrese primer numerador: '))
+num2 = int(input('Ingrese segundo numerador: '))
+
+if num1>0 and num2>0:
+    x = Fraction(num1, num2)
+    print(f'La fracción es {num1}/{num2} y su simplificada es ',x)
+else:
+    print('Los numeradores deben ser mayores a 0')
